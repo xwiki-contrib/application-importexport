@@ -11,5 +11,10 @@
   <name>Contrib - Applications - Import/Export</name>
   <version>1.3-SNAPSHOT</version>
   <description>Application that allows to selectively import or export groups of documents</description>
+  <scm>
+    <connection>scm:svn:http://svn.xwiki.org/svnroot/xwiki/contrib/projects/xwiki-application-importexport/trunk/</connection>
+    <developerConnection>scm:svn:https://svn.xwiki.org/svnroot/xwiki/contrib/projects/xwiki-application-importexport/trunk/</developerConnection>
+    <url>http://svn.xwiki.org/svnroot/xwiki/contrib/projects/xwiki-application-importexport/trunk/</url>
+  </scm>
 </project>
 
