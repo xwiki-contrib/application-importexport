@@ -202,7 +202,7 @@ Ajax.XWikiRequest = Class.create(Ajax.Request, {
       this.action = action;
     else
       this.action = "view";
-    this.baseUrl = "/xwiki/bin/" + this.action;
+    this.baseUrl = XWiki.contextPath + "/bin/" + this.action;
 
     options = Object.clone(options);
     var onComplete = options.onComplete || Prototype.emptyFunction;
